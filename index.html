@@ -1,0 +1,26 @@
+<head>
+    <title>My For Validator</title>
+    <!-- <script>
+        function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+      alert("Name must be filled out");
+      return false;
+    }
+  }
+    </script> -->
+</head>
+<body>
+    <form name="myForm" onsubmit="return validateForm()">
+        <div class="container">
+            <input type="text" name="fname" placeholder="Full Name">
+            <input type="text" name="femail" placeholder="Emaill Address">
+            <input type="password" name="fpassword" placeholder="Password">
+            <!-- <input type="submit" value="Submit"> -->
+            <button type="submit" class="registerbtn">Register</button>
+        </div>
+      
+    </form>
+   <link rel="stylesheet" href="index.css">
+    <script src="app.js"></script>
+</body>
